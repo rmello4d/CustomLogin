@@ -1,0 +1,1 @@
+﻿[{"dataTableNum":1,"tableName":"User","fields":[{"fieldName":"email","posInRecord":1},{"fieldName":"fullName","posInRecord":2},{"fieldName":"HA1Key","posInRecord":3},{"fieldName":"ID","posInRecord":4},{"fieldName":"role","posInRecord":5}]}]

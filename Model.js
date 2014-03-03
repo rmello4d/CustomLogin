@@ -1,0 +1,1 @@
+model.User = require('CustomLogin').User;

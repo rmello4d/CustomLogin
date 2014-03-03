@@ -1,1 +1,1 @@
-﻿//The customLogin() function will now authenticate all users.// We want the listener to be run with the Admin group's privileges.directory.setLoginListener("CL.customLogin", "Admin");
+﻿//The customLogin() function will now authenticate all users.// We want the listener to be run with the Admin group's privileges.directory.setLoginListener("CL.customLogin", "Admin");//Initialize our Model with some data.new SharedWorker("Workers/initData.js", "InitData"); 

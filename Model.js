@@ -1,1 +1,1 @@
-model.User = require('CustomLogin').User;
+//Build our Model.model.User = require('CustomLogin').User;

@@ -7,27 +7,17 @@ function constructor (id) {
 
 	// @region beginComponentDeclaration// @startlock
 	var $comp = this;
-	this.name = 'signUp';
+	this.name = 'login';
 	// @endregion// @endlock
 
 	this.load = function (data) {// @lock
 
 	// @region namespaceDeclaration// @startlock
-	var signUpButton = {};	// @button
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
 
-	signUpButton.click = function signUpButton_click (event)// @startlock
-	{// @endlock
-		//console.log($comp.sources);
-		//console.log($comp.sources.signUpObj);
-		//CL_Template.signUp($comp.sources.signUpObj);
-		CL_Template.signUp(signUpObj);
-	};// @lock
-
 	// @region eventManager// @startlock
-	WAF.addListener(this.id + "_signUpButton", "click", signUpButton.click, "WAF");
 	// @endregion// @endlock
 
 	};// @lock

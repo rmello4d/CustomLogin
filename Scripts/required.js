@@ -1,1 +1,1 @@
-﻿var CL = CL || {}; //Don't assume we are first to define our CL namespace.CL.customLogin = require('CustomLogin').customLoginListener;
+﻿var CL_Template = CL_Template || {}; //Don't assume we are first to define our CL namespace.CL_Template.customLogin = require('CustomLogin').customLoginListener;

@@ -13,6 +13,7 @@ User.fullName = new Attribute("storage", "string", "btree");
 User.methods = {};
 
 User.methods.addUser = function(signUpData) {
+	debugger;
 	// Add a new user account.
 	var passwordRegexStr, isValid,
 		sessionRef = currentSession(), // Get session.

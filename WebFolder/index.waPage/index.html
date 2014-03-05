@@ -14,16 +14,19 @@
 		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
 		<meta name="WAF.config.loadCSS" content="styles/custom.css"/>
 
-		<meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
-		<meta name="WAF.config.loadJS" content="scripts/CL_Template.js"/>
+		
+		
 
 		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="object" data-source="signUpObj" data-lib="WAF" data-id="signUpObj" data-dataType="string" data-autoLoad="true" data-attributes="name:string,email:string,password:string,verifyPassword:string" content="signUpObj"/>
-		<meta data-type="dataSource" data-lib="WAF" data-source-type="object" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="signInObj" data-source="signInObj" data-attributes="email:string,password:string" content="signInObj"/></head>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="object" data-source="signInObj" data-lib="WAF" data-id="signInObj" data-dataType="string" data-autoLoad="true" data-attributes="email:string,password:string" content="signInObj"/>		<meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
+		<meta name="WAF.config.loadJS" content="scripts/WakTmpl.js"/>
+</head>
 	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="true" data-apple-meta-tags-status-bar="default" style="bottom:;right:;visibility:hidden;">
 		<div id="headerContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" class="waf-widget waf-container waf-container-level-0 waf-level-0">
 	 	<div id="headerCenteredContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container waf-container-level-1 waf-level-1">
 	 	 	<div id="richTextTitle" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="false" class="waf-widget waf-richText ">Dark Shadows</div>
- 	 	<button id="switchStateButton" data-type="button" data-text="Log In" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button "></button></div>
+ 	 	<button id="switchStateButton" data-type="button" data-text="Log In" data-target="_blank" data-name="switch" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button loginButton"></button>	<div id="loginText" data-type="richText" data-lib="WAF" class="waf-widget waf-richText " data-autoWidth="false" data-label="" data-label-position="left" data-target="_blank" data-overflow="Hidden" data-plainText="true" data-constraint-left="false" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="true"></div>
+ 	 	</div>
  	</div>
 	<div id="mainContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container waf-container-level-0 waf-level-0">
 	 	<div id="mainCenteredContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container waf-container-level-1 waf-level-1">
@@ -35,6 +38,7 @@
 	 	 	<div id="imagePoweredBy" data-type="image" data-target="_blank" data-lib="WAF" data-label-position="left" data-label="" data-fit="4" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="false" class="waf-widget waf-image "></div>
  	 	</div>
  	</div>
+		
 		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
 	</body>
 </html>

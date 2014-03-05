@@ -1,12 +1,15 @@
 ﻿<!DOCTYPE html><section data-group="[]">
     <meta name="generator" content="Wakanda GUIDesigner"/>
-    <meta name="WAF.catalog" content=""/>	<div id="{id}loginCompContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-container waf-container-level-0 waf-level-0">
+    <meta name="WAF.catalog" content=""/>
+    <meta data-type="dataSource" data-lib="WAF" data-source-type="object" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-scope="global" data-id="signInObj" data-source="signInObj" data-attributes="email:string,password:string" content="signInObj"/>	<div id="{id}loginCompContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container waf-container-level-0 waf-level-0">
 	 	<div id="{id}loginContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container waf-container-level-1 waf-level-1">
 	 	 	<div id="{id}loginTitleContainer" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container waf-container-level-2 waf-level-2">
 	 	 	 	<div id="{id}richText1" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="false" class="waf-widget waf-richText ">Log In</div>
  	 	 	</div>
- 	 		<input id="{id}inputEmail" data-type="textField" data-lib="WAF" type="text" class="waf-widget waf-textField " data-label="" data-label-position="left" data-multiline="false" data-readOnly="false" data-password="false" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" placeholder="Your Email"/>
- 	 		</div>
+ 	 		<input type="text" placeholder="Your Email" id="{id}inputEmail" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-textField " data-binding="signInObj.email"/>
+ 	 			<input type="text" placeholder="Your Password" id="{id}inputPassword" data-type="textField" data-readOnly="false" data-password="true" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-textField " data-binding="signInObj.password"/>
+ 	 		<button id="{id}loginButton" data-type="button" data-text="Log In" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button "></button>
+ 	 	</div>
  	</div>
 	
 	</section>

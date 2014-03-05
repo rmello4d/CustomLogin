@@ -20,9 +20,6 @@ function constructor (id) {
 
 	signUpButton.click = function signUpButton_click (event)// @startlock
 	{// @endlock
-		//console.log($comp.sources);
-		//console.log($comp.sources.signUpObj);
-		//CL_Template.signUp($comp.sources.signUpObj);
 		CL_Template.signUp(signUpObj);
 	};// @lock
 

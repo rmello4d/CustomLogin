@@ -16,7 +16,10 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
-
+	
+	// Note: see WakTmpl.js for the Sign Up Button event handler.
+	
+	
 	// @region eventManager// @startlock
 	// @endregion// @endlock
 

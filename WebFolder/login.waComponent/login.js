@@ -16,6 +16,8 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+	
+	// Note: see WakTmpl.js for the Log In Button event handler.
 
 	// @region eventManager// @startlock
 	// @endregion// @endlock

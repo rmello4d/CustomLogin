@@ -114,7 +114,7 @@ var getGroupListForGroup = function (groupName) {
 	
 	if (myGroup !== null) {
 		groupArray.push(groupName);
-		groupObject = myGroup.getChildren();
+		groupObject = myGroup.getChildren("allLevels");
 
 		for (groupProperty in groupObject) {
 				groupArray.push(groupObject[groupProperty].name);
